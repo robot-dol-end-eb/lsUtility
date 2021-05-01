@@ -1,0 +1,5 @@
+zzz rwx Sat May 01 19:35:43 MSK 2021 0 bytes
+vs.bmp rwx Wed Apr 28 20:38:58 MSK 2021 45 MB
+rar22.rar rwx Wed Apr 28 18:28:35 MSK 2021 20 bytes
+qq rwx Wed Apr 28 18:28:45 MSK 2021 0 bytes
+a1.txt rwx Wed Apr 28 20:39:13 MSK 2021 799 bytes

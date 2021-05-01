@@ -67,13 +67,14 @@ public class Is {
             if (!l) for (File item : listFiles) result.add(item.getName());
             else for (File item : listFiles) result.add(getFullInfo(item));
         }
+        Collections.sort(result);
         if (r) Collections.reverse(result);
         return result;
     }
 
     public void toFile(){
         ArrayList<String> result = getInfo();
-        try(FileWriter writer = new FileWriter(outPut))
+        try(FileWriter writer = new FileWriter(".\\src\\test\\java\\resources\\"+outPut))
         {
             for (String item : result) {
                 writer.write(item + "\n");

@@ -20,4 +20,3 @@ hs_err_pid*
 out/
 lib/
 /target/
-src/test/java/resources/
